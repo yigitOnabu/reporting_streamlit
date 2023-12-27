@@ -101,62 +101,57 @@ def create_radar_chart():
     return fig
 
 
-def main():
-
-    st.set_page_config(layout='wide')
-    @st.cache_resource
-    def load_data():
-        advice_comp_rate = pd.read_csv('reports/people/advice_completion_rate.csv')
-        average_quiz_score = pd.read_csv('reports/people/average_quiz_score.csv')
-        event_competion_rate = pd.read_csv('reports/people/event_completion_rate.csv')
+st.set_page_config(layout='wide')
+@st.cache_resource
+def load_data():
+    advice_comp_rate = pd.read_csv('reports/people/advice_completion_rate.csv')
+    average_quiz_score = pd.read_csv('reports/people/average_quiz_score.csv')
+    event_competion_rate = pd.read_csv('reports/people/event_completion_rate.csv')
 
 
-        return advice_comp_rate, average_quiz_score, event_competion_rate
+    return advice_comp_rate, average_quiz_score, event_competion_rate
 
-    advice_comp_rate, average_quiz_score, event_competion_rate = load_data()
+advice_comp_rate, average_quiz_score, event_competion_rate = load_data()
 
-    st.title('Overall People Completion Rate')
-
-
-    # Creating the bar chart using Plotly
-    avg_complete_fig = go.Figure(data=[
-        go.Bar(name='Completion Rate', x=advice_comp_rate['fullName'], y=advice_comp_rate['completion_rate'])
-    ])
-
-    # Update layout
-    avg_complete_fig.update_layout(
-        title='Advice Completion Rate',
-        xaxis=dict(title='Full Name'),
-        yaxis=dict(title='Completion Rate (%)'),
-        legend=dict(x=0.01, y=0.99),
-        legend_title_text='Legend',
-        font=dict(size=14)
-    )
-
-    st.plotly_chart(avg_complete_fig,use_container_width=True)
+st.title('Overall People Completion Rate')
 
 
-    # Creating the bar chart using Plotly
-    avg_quiz_fig = go.Figure(data=[
-        go.Bar(name='Quiz Score', x=average_quiz_score['fullName'], y=average_quiz_score['avg_success_score'])
-    ])
+# Creating the bar chart using Plotly
+avg_complete_fig = go.Figure(data=[
+    go.Bar(name='Completion Rate', x=advice_comp_rate['fullName'], y=advice_comp_rate['completion_rate'])
+])
 
-    # Update layout
-    avg_quiz_fig.update_layout(
-        title='Average Quiz Score',
-        xaxis=dict(title='Full Name'),
-        yaxis=dict(title='Average Quiz Score'),
-        legend=dict(x=0.01, y=0.99),
-        legend_title_text='Legend',
-        font=dict(size=14)
-    )
+# Update layout
+avg_complete_fig.update_layout(
+    title='Advice Completion Rate',
+    xaxis=dict(title='Full Name'),
+    yaxis=dict(title='Completion Rate (%)'),
+    legend=dict(x=0.01, y=0.99),
+    legend_title_text='Legend',
+    font=dict(size=14)
+)
 
-    # Show the figure
-    st.plotly_chart(avg_quiz_fig,use_container_width=True)
+st.plotly_chart(avg_complete_fig,use_container_width=True)
 
-    st.header("EXAMPLE")
-    example_radar_chart = create_radar_chart()
-    st.plotly_chart(example_radar_chart,use_container_width=True)
 
-if __name__ == "__main__":
-    main()
+# Creating the bar chart using Plotly
+avg_quiz_fig = go.Figure(data=[
+    go.Bar(name='Quiz Score', x=average_quiz_score['fullName'], y=average_quiz_score['avg_success_score'])
+])
+
+# Update layout
+avg_quiz_fig.update_layout(
+    title='Average Quiz Score',
+    xaxis=dict(title='Full Name'),
+    yaxis=dict(title='Average Quiz Score'),
+    legend=dict(x=0.01, y=0.99),
+    legend_title_text='Legend',
+    font=dict(size=14)
+)
+
+# Show the figure
+st.plotly_chart(avg_quiz_fig,use_container_width=True)
+
+st.header("EXAMPLE")
+example_radar_chart = create_radar_chart()
+st.plotly_chart(example_radar_chart,use_container_width=True)
