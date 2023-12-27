@@ -1,11 +1,10 @@
-"userId","fullName","avg_success_score"
-"066915ca-57e3-494b-abd3-1fe24d7145e5",Alp Ergenç,10.0000000000000000
-d327f78c-b9e9-4a6d-a7df-c53f91e1454c,Ahmet Akdag,10.0000000000000000
-"1408fb08-6980-48ef-8ca1-cf843e8bb3f0",Çevik Metot Yönetimi,9.0000000000000000
-"78e6d212-8cae-4f75-b9dd-92e19f2bb678",Burçin karaca,9.0000000000000000
-"7f0dffa0-8b7d-46f7-b127-82e3fddaacbe",Merve Ergenç,8.6666666666666667
-"6dd8a13d-c0d8-4f6b-bd0f-299490ed5fa4",arctic monkeys,8.6000000000000000
-f68fa606-4c34-4743-b9a7-007a13232432,Umut Arisoy,8.0000000000000000
-c104f47a-46bc-4322-8bbe-d275ee47fb38,bertan piset,7.5000000000000000
-"3f189c37-d5a9-40f1-b4cc-46fe698952bf",Alper Berber,7.0000000000000000
-"6578d051-0f67-4f24-b7df-e9dbe56af3e9",Umut Arısoy,4.0000000000000000
+avg_success_score,fullName
+10.0,Alp
+10.0,Ahmet
+9.0,Çevik
+9.0,Burçin
+8.666666666666666,Merve
+8.0,Umut
+7.5,bertan
+7.0,Alper
+4.0,Umut
