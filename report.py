@@ -8,29 +8,16 @@ import plotly.graph_objects as go
 def create_radar_chart():
     # Sample data
     data = {
-        "userId": [
-            # Existing data
-            "22078751-34f0-4ed5-806f-78b5e36b4f35", "a920844e-c0a0-4073-963d-311ed32cbda5",
-            "c2d14093-e4c1-4d28-a9dc-9d9c3470dcf2", "e3d2c650-ec45-40f0-83f7-05159519c2fc",
-            "e3d2c650-ec45-40f0-83f7-05159519c2fc", "8793280a-4391-407d-971d-fed93d99205c",
-            "8793280a-4391-407d-971d-fed93d99205c", "59e51cd4-40d9-4856-bbb6-2d740d510df8",
-            "59e51cd4-40d9-4856-bbb6-2d740d510df8", "f987c2cc-3cab-4610-b2df-afc30e43b02c",
-            # New data
-            "22078751-34f0-4ed5-806f-78b5e36b4f35", "a920844e-c0a0-4073-963d-311ed32cbda5",
-            "e3d2c650-ec45-40f0-83f7-05159519c2fc", "8793280a-4391-407d-971d-fed93d99205c",
-        ],
         "fullName": [
             # Existing data
             "Yiğit Ağalar", "Vorn", "Umut Arısoy", "Özgür Tellal", "Özgür Tellal", 
             "Ozgur Tellal", "Ozgur Tellal", "ozgur tellal", "ozgur tellal", "Emin Uzer",
-            # New data
             "Yiğit Ağalar", "Vorn", "Özgür Tellal", "Ozgur Tellal",
         ],
         "name": [
             # Existing data
             "Review", "Review", "Review", "Planning", "Review",
             "Planning", "Review", "Planning", "Review", "Planning",
-            # New data
             "Design", "Design", "Design", "Design",
         ],
         "total_given": [
