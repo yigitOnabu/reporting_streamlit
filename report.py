@@ -52,13 +52,15 @@ def create_radar_chart():
         name='Completion Rate'
     ))
 
+    # Updating layout with dynamic title
     fig.update_layout(
         polar=dict(
             radialaxis=dict(
                 visible=True,
                 range=[0, 100]
             )),
-        showlegend=False
+        showlegend=True,
+        title=f"Performance of {selected_individual} on Different Events"
     )
 
     return fig
