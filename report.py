@@ -4,53 +4,42 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
-
 def create_radar_chart():
     # Sample data
     data = {
         "fullName": [
-            # Existing data
             "Yiğit Ağalar", "Vorn", "Umut Arısoy", "Özgür Tellal", "Özgür Tellal", 
             "Ozgur Tellal", "Ozgur Tellal", "ozgur tellal", "ozgur tellal", "Emin Uzer",
             "Yiğit Ağalar", "Vorn", "Özgür Tellal", "Ozgur Tellal",
         ],
         "name": [
-            # Existing data
             "Review", "Review", "Review", "Planning", "Review",
             "Planning", "Review", "Planning", "Review", "Planning",
             "Design", "Design", "Design", "Design",
         ],
         "total_given": [
-            # Existing data
-            1, 1, 3, 3, 5, 3, 10, 3, 4, 3,
-            # New data
-            2, 4, 3, 5,
+            1, 1, 3, 3, 5, 3, 10, 3, 4, 3, 2, 4, 3, 5,
         ],
         "total_completed": [
-            # Existing data
-            1, 0, 0, 0, 1, 0, 6, 0, 2, 0,
-            # New data
-            2, 3, 2, 4,
+            1, 0, 0, 0, 1, 0, 6, 0, 2, 0, 2, 3, 2, 4,
         ],
         "completion_rate": [
-            # Existing data
             100.0, 60.0, 60.0, 60.0, 60.0, 60.0, 40.0, 40.0, 60.0, 40.0,
-            # New data
-            100.0,100.0, 100, 80.0,
+            100.0, 100.0, 100, 80.0,
         ]
     }
 
-
     df = pd.DataFrame(data)
 
-    # Selecting a specific individual from the data providedÜ
+    # Selecting a specific individual from the data provided
     selected_individual = "Özgür Tellal"
 
     # Filtering the data for the selected individual
     individual_data = df[df['fullName'] == selected_individual]
 
-    # Grouping by event type ('name') and calculating mean completion rate
-    grouped_data = individual_data.groupby('name').mean().reset_index()
+    # Grouping by event type ('name') and calculating mean for only numeric columns
+    numeric_cols = ['total_given', 'total_completed', 'completion_rate']
+    grouped_data = individual_data.groupby('name')[numeric_cols].mean().reset_index()
 
     # Creating the radar chart
     fig = go.Figure()
@@ -62,30 +51,17 @@ def create_radar_chart():
         name='Completion Rate'
     ))
 
-    #fig.add_trace(go.Scatterpolar(
-    #    r=grouped_data['total_completed'],
-    #    theta=grouped_data['name'],
-    #    fill='toself',
-    #    name='Completed'
-    #))
-
-
     fig.update_layout(
         polar=dict(
             radialaxis=dict(
                 visible=True,
                 range=[0, 100]
-
             )),
-            
-        title=f"Performance of {selected_individual} on Different Events",
-        showlegend=True,
-
+        showlegend=False
     )
 
-    # Note: Due to the execution environment limitations, the plot may not be displayed here. 
-    # Please run this code in your local Python environment to view the plot.
     return fig
+
 
 
 st.set_page_config(layout='wide')
