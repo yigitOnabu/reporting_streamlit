@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
+
 def create_radar_chart():
     # Sample data
     data = {
