@@ -72,12 +72,12 @@ st.set_page_config(layout='wide')
 def load_data():
     advice_comp_rate = pd.read_csv('reports/people/advice_completion_rate.csv')
     average_quiz_score = pd.read_csv('reports/people/average_quiz_score.csv')
-    event_competion_rate = pd.read_csv('reports/people/event_completion_rate.csv')
 
 
-    return advice_comp_rate, average_quiz_score, event_competion_rate
 
-advice_comp_rate, average_quiz_score, event_competion_rate = load_data()
+    return advice_comp_rate, average_quiz_score
+
+advice_comp_rate, average_quiz_score = load_data()
 
 st.title('Overall People Completion Rate')
 
