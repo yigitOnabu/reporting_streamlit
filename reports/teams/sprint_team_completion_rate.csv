@@ -1,0 +1,268 @@
+"name","name","no","total_given","total_completed","completion_rate"
+Yeni takım,PreSprinting,0,2,0,0.00000000000000000000
+Yeni takım,Start Me Up (Change),1,2,0,0.00000000000000000000
+XYZ,PreSprinting,0,4,0,0.00000000000000000000
+XYZ,Start Me Up (Change),1,4,0,0.00000000000000000000
+XYZ,Let's Get It Started (Agile),2,2,2,100.0000000000000000
+XYZ,Sprint #2,2,6,0,0.00000000000000000000
+Workflow,PreSprinting,0,6,0,0.00000000000000000000
+Workflow,Start Me Up (Change),1,2,0,0.00000000000000000000
+Workflow,Sprint #2,2,2,0,0.00000000000000000000
+Vodafone CSR Team,PreSprinting,0,2,0,0.00000000000000000000
+Transformation team,PreSprinting,0,2,2,100.0000000000000000
+Transformation team,Start Me Up (Change),1,4,0,0.00000000000000000000
+Transformation team,Sprint #1,1,6,4,66.6666666666666667
+The Nimbleer,PreSprinting,0,6,2,33.3333333333333333
+The Nimbleer,Start Me Up (Change),1,4,2,50.0000000000000000
+Team One,PreSprinting,0,6,2,33.3333333333333333
+Team One,Start Me Up (Change),1,4,2,50.0000000000000000
+Team Anka,PreSprinting,0,6,4,66.6666666666666667
+Team Anka,Sprint #1,1,2,0,0.00000000000000000000
+Team Anka,Start Me Up (Change),1,4,2,50.0000000000000000
+Team Anka,Let's Get It Started (Agile),2,6,0,0.00000000000000000000
+Team A,Pre Sprinting,0,6,0,0.00000000000000000000
+Team A,Start Me Up,1,4,0,0.00000000000000000000
+team 2,PreSprinting,0,6,4,66.6666666666666667
+team 2,Start Me Up (Change),1,4,2,50.0000000000000000
+team 1,PreSprinting,0,6,4,66.6666666666666667
+team 1,Start Me Up (Change),1,4,2,50.0000000000000000
+Takım1,Sprint #1,1,2,0,0.00000000000000000000
+Takım1,Start Me Up (Change),1,4,0,0.00000000000000000000
+Sprint Benders,Sprint #1,1,8,6,75.0000000000000000
+Sprint Benders,Sprint #2,2,12,10,83.3333333333333333
+Sprint Benders,Sprint #3,3,18,12,66.6666666666666667
+Sprint Benders,I Wanna Rock (Scrum),3,6,6,100.0000000000000000
+Sprint Benders,Don't Stop Believin' (Origins of Scrum),4,4,4,100.0000000000000000
+Sprint Benders,Sprint #4,4,10,6,60.0000000000000000
+Sprint Benders,Keep On Running,5,2,2,100.0000000000000000
+Sprint Benders,I want to break free,6,2,0,0.00000000000000000000
+Sprint Benders,Smooth,7,4,2,50.0000000000000000
+Sprint Benders,Shine On You Crazy Diamond,8,2,0,0.00000000000000000000
+Sprint Benders,Pinball Wizard,12,2,0,0.00000000000000000000
+Sample Team,PreSprinting,0,6,0,0.00000000000000000000
+Sample Team,Start Me Up (Change),1,4,0,0.00000000000000000000
+SampleTeam,PreSprinting,0,6,4,66.6666666666666667
+SampleTeam,Start Me Up (Change),1,4,2,50.0000000000000000
+SampleTeam,Sprint #1,1,2,0,0.00000000000000000000
+SampleTeam,Let's Get It Started (Agile),2,6,4,66.6666666666666667
+SampleTeam,I Wanna Rock (Scrum),3,6,4,66.6666666666666667
+Pes,PreSprinting,0,2,0,0.00000000000000000000
+Pes,Sprint #1,1,8,0,0.00000000000000000000
+Pes,Start Me Up (Change),1,4,0,0.00000000000000000000
+Pes,Let's Get It Started (Agile),2,4,0,0.00000000000000000000
+Pes,I Wanna Rock (Scrum),3,4,0,0.00000000000000000000
+Paul,Sprint #2,2,2,0,0.00000000000000000000
+Onabu Team,PreSprinting,0,6,0,0.00000000000000000000
+Onabu Team,Sprint #1,1,4,2,50.0000000000000000
+Onabu Team,Start Me Up (Change),1,4,4,100.0000000000000000
+Onabu Team,Let's Get It Started (Agile),2,6,6,100.0000000000000000
+Onabu Team,I Wanna Rock (Scrum),3,6,2,33.3333333333333333
+Onabu Team,Don't Stop Believin' (Origins of Scrum),4,4,2,50.0000000000000000
+Onabu Team,Sprint #4,4,2,0,0.00000000000000000000
+Onabu Team,Keep On Running,5,4,4,100.0000000000000000
+Onabu Team,I want to break free,6,2,0,0.00000000000000000000
+Onabu Team,Keep Pushin',13,2,0,0.00000000000000000000
+onabu,PreSprinting,0,2,0,0.00000000000000000000
+onabu,Start Me Up (Change),1,4,2,50.0000000000000000
+onabu,Let's Get It Started (Agile),2,6,6,100.0000000000000000
+onabu,I Wanna Rock (Scrum),3,6,4,66.6666666666666667
+onabu,Don't Stop Believin' (Origins of Scrum),4,4,2,50.0000000000000000
+onabu,Keep On Running,5,4,0,0.00000000000000000000
+onabu,Shine On You Crazy Diamond,8,2,2,100.0000000000000000
+Ödemeler,PreSprinting,0,2,0,0.00000000000000000000
+Ödemeler,PreSprinting,0,6,2,33.3333333333333333
+Ödemeler,Sprint #1,1,14,10,71.4285714285714286
+Ödemeler,Sprint #1,1,2,0,0.00000000000000000000
+Ödemeler,Start Me Up (Change),1,4,4,100.0000000000000000
+Ödemeler,Let's Get It Started (Agile),2,6,6,100.0000000000000000
+Ödemeler,Sprint #2,2,18,16,88.8888888888888889
+Ödemeler,Sprint #2,2,2,0,0.00000000000000000000
+Ödemeler,Sprint #3,3,12,8,66.6666666666666667
+Ödemeler,I Wanna Rock (Scrum),3,6,6,100.0000000000000000
+Ödemeler,I Wanna Rock (Scrum),3,2,0,0.00000000000000000000
+Ödemeler,Sprint #4,4,6,2,33.3333333333333333
+Ödemeler,Don't Stop Believin' (Origins of Scrum),4,4,2,50.0000000000000000
+Ödemeler,Keep On Running,5,4,4,100.0000000000000000
+Ödemeler,I want to break free,6,4,2,50.0000000000000000
+Ödemeler,Smooth,7,4,0,0.00000000000000000000
+Ödemeler,Shine On You Crazy Diamond,8,2,0,0.00000000000000000000
+Ödemeler,Bohemian Rhapsody,11,2,0,0.00000000000000000000
+OBH2,PreSprinting,0,6,0,0.00000000000000000000
+OBH2,Sprint #1,1,10,0,0.00000000000000000000
+OBH2,Start Me Up (Change),1,4,0,0.00000000000000000000
+OBH,PreSprinting,0,6,0,0.00000000000000000000
+OBH,Start Me Up (Change),1,4,0,0.00000000000000000000
+OBH,Sprint #1,1,10,0,0.00000000000000000000
+No name 2,PreSprinting,0,6,2,33.3333333333333333
+No name 2,Start Me Up (Change),1,4,2,50.0000000000000000
+My Team,PreSprinting,0,2,0,0.00000000000000000000
+My team,Pre Sprinting,0,4,2,50.0000000000000000
+My team,Start Me Up,1,4,2,50.0000000000000000
+My team,Let's Get It Started,2,4,2,50.0000000000000000
+Money Faturacılar,Sprint #1,1,6,0,0.00000000000000000000
+Money Faturacılar,Sprint #2,2,16,0,0.00000000000000000000
+Money Faturacılar,Sprint #3,3,14,8,57.1428571428571429
+Money Faturacılar,Keep On Running,5,4,0,0.00000000000000000000
+Money Faturacılar,I want to break free,6,2,0,0.00000000000000000000
+Money Faturacılar,Smooth,7,4,0,0.00000000000000000000
+Money Faturacılar,Shine On You Crazy Diamond,8,4,2,50.0000000000000000
+Money Faturacılar,Gonna Fly Now,9,4,0,0.00000000000000000000
+Mobile,PreSprinting,0,6,4,66.6666666666666667
+Mobile,Start Me Up (Change),1,4,4,100.0000000000000000
+Mauro Icardi,PreSprinting,0,2,0,0.00000000000000000000
+Login Shield,PreSprinting,0,6,2,33.3333333333333333
+Login Shield,Start Me Up (Change),1,4,4,100.0000000000000000
+Login Shield,Sprint #1,1,14,10,71.4285714285714286
+Login Shield,Let's Get It Started (Agile),2,6,6,100.0000000000000000
+Login Shield,Sprint #2,2,18,16,88.8888888888888889
+Login Shield,I Wanna Rock (Scrum),3,6,6,100.0000000000000000
+Login Shield,Sprint #3,3,12,8,66.6666666666666667
+Login Shield,Don't Stop Believin' (Origins of Scrum),4,4,2,50.0000000000000000
+Login Shield,Sprint #4,4,6,2,33.3333333333333333
+Login Shield,Keep On Running,5,4,4,100.0000000000000000
+Login Shield,I want to break free,6,4,2,50.0000000000000000
+Login Shield,Smooth,7,4,0,0.00000000000000000000
+Login Shield,Shine On You Crazy Diamond,8,2,0,0.00000000000000000000
+Login Shield,Bohemian Rhapsody,11,2,0,0.00000000000000000000
+Kare,PreSprinting,0,6,4,66.6666666666666667
+Kare,Sprint #1,1,18,14,77.7777777777777778
+Kare,Start Me Up (Change),1,4,0,0.00000000000000000000
+Kare,Let's Get It Started (Agile),2,2,0,0.00000000000000000000
+Kare,Sprint #2,2,2,0,0.00000000000000000000
+Kare,I Wanna Rock (Scrum),3,2,0,0.00000000000000000000
+Kampanyalar,PreSprinting,0,6,2,33.3333333333333333
+Kampanyalar,Sprint #1,1,14,10,71.4285714285714286
+Kampanyalar,Start Me Up (Change),1,4,4,100.0000000000000000
+Kampanyalar,Let's Get It Started (Agile),2,6,6,100.0000000000000000
+Kampanyalar,Sprint #2,2,18,16,88.8888888888888889
+Kampanyalar,Sprint #3,3,12,8,66.6666666666666667
+Kampanyalar,I Wanna Rock (Scrum),3,6,6,100.0000000000000000
+Kampanyalar,Don't Stop Believin' (Origins of Scrum),4,4,2,50.0000000000000000
+Kampanyalar,Sprint #4,4,6,2,33.3333333333333333
+Kampanyalar,Keep On Running,5,4,4,100.0000000000000000
+Kampanyalar,I want to break free,6,4,2,50.0000000000000000
+Kampanyalar,Smooth,7,4,0,0.00000000000000000000
+Kampanyalar,Shine On You Crazy Diamond,8,2,0,0.00000000000000000000
+Kampanyalar,Bohemian Rhapsody,11,2,0,0.00000000000000000000
+Kalt,PreSprinting,0,2,0,0.00000000000000000000
+Kalt,Start Me Up (Change),1,4,0,0.00000000000000000000
+Kalt,Sprint #1,1,8,0,0.00000000000000000000
+Kalt,Let's Get It Started (Agile),2,4,0,0.00000000000000000000
+Kalt,I Wanna Rock (Scrum),3,4,0,0.00000000000000000000
+Kaizen,PreSprinting,0,6,4,66.6666666666666667
+Kaizen,Start Me Up (Change),1,4,2,50.0000000000000000
+Kaizen,Sprint #1,1,4,4,100.0000000000000000
+Kaizen,Let's Get It Started (Agile),2,2,0,0.00000000000000000000
+Hesaplaşma,PreSprinting,0,2,0,0.00000000000000000000
+Hesaplaşma,Sprint #1,1,2,0,0.00000000000000000000
+Hesaplaşma,Sprint #2,2,2,0,0.00000000000000000000
+Hesaplaşma,I Wanna Rock (Scrum),3,2,0,0.00000000000000000000
+H,Start Me Up,1,2,0,0.00000000000000000000
+Fly,Pre Sprinting,0,4,0,0.00000000000000000000
+Fly,Start Me Up,1,2,0,0.00000000000000000000
+Denemedeneme,PreSprinting,0,6,4,66.6666666666666667
+Denemedeneme,Sprint #1,1,2,0,0.00000000000000000000
+Denemedeneme,Start Me Up (Change),1,4,2,50.0000000000000000
+Denemedeneme,Let's Get It Started (Agile),2,2,0,0.00000000000000000000
+Deneme,PreSprinting,0,6,2,33.3333333333333333
+Deneme,PreSprinting,0,6,0,0.00000000000000000000
+Deneme,Start Me Up (Change),1,4,0,0.00000000000000000000
+Deneme,Start Me Up (Change),1,2,2,100.0000000000000000
+Deneme,Start Me Up (Change),1,4,0,0.00000000000000000000
+Deneme,Sprint #1,1,6,0,0.00000000000000000000
+Deneme,Let's Get It Started (Agile),2,6,0,0.00000000000000000000
+Deneme,Sprint #2,2,2,0,0.00000000000000000000
+Deneme,Let's Get It Started (Agile),2,6,0,0.00000000000000000000
+Deneme,Sprint #3,3,2,0,0.00000000000000000000
+Deneme,I Wanna Rock (Scrum),3,4,0,0.00000000000000000000
+Deneme,Sprint #4,4,8,0,0.00000000000000000000
+Deneme,I want to break free,6,2,0,0.00000000000000000000
+Deneme,Smooth,7,2,0,0.00000000000000000000
+Deneme,Shine On You Crazy Diamond,8,4,2,50.0000000000000000
+Deneme,Gonna Fly Now,9,4,0,0.00000000000000000000
+Deneme,The Final Countdown,10,4,0,0.00000000000000000000
+Deneme,Bohemian Rhapsody,11,4,2,50.0000000000000000
+Deneme,Pinball Wizard,12,2,0,0.00000000000000000000
+Deneme,It's the End of the World As We Know It (And I Feel Fine),20,2,0,0.00000000000000000000
+cycle,PreSprinting,0,6,4,66.6666666666666667
+cycle,Start Me Up (Change),1,4,0,0.00000000000000000000
+cycle,Sprint #1,1,18,14,77.7777777777777778
+cycle,Sprint #2,2,2,0,0.00000000000000000000
+cycle,Let's Get It Started (Agile),2,2,0,0.00000000000000000000
+cycle,I Wanna Rock (Scrum),3,2,0,0.00000000000000000000
+Çözeriz A.Ş,Sprint #1,1,6,0,0.00000000000000000000
+Çözeriz A.Ş,Sprint #2,2,16,0,0.00000000000000000000
+Çözeriz A.Ş,Sprint #3,3,14,8,57.1428571428571429
+Çözeriz A.Ş,Keep On Running,5,4,0,0.00000000000000000000
+Çözeriz A.Ş,I want to break free,6,2,0,0.00000000000000000000
+Çözeriz A.Ş,Smooth,7,4,0,0.00000000000000000000
+Çözeriz A.Ş,Shine On You Crazy Diamond,8,4,2,50.0000000000000000
+Çözeriz A.Ş,Gonna Fly Now,9,4,0,0.00000000000000000000
+Camunda,PreSprinting,0,6,0,0.00000000000000000000
+Camunda,Start Me Up (Change),1,2,0,0.00000000000000000000
+Camunda,Sprint #2,2,2,0,0.00000000000000000000
+Big Boss,PreSprinting,0,2,0,0.00000000000000000000
+Big Boss,Sprint #1,1,4,0,0.00000000000000000000
+b,PreSprinting,0,6,0,0.00000000000000000000
+b,Sprint #1,1,4,2,50.0000000000000000
+b,Start Me Up (Change),1,4,4,100.0000000000000000
+b,Let's Get It Started (Agile),2,6,6,100.0000000000000000
+b,I Wanna Rock (Scrum),3,6,2,33.3333333333333333
+b,Sprint #4,4,2,0,0.00000000000000000000
+b,Don't Stop Believin' (Origins of Scrum),4,4,2,50.0000000000000000
+b,Keep On Running,5,4,4,100.0000000000000000
+b,I want to break free,6,2,0,0.00000000000000000000
+b,Keep Pushin',13,2,0,0.00000000000000000000
+ati,PreSprinting,0,2,0,0.00000000000000000000
+ati,Start Me Up (Change),1,4,2,50.0000000000000000
+ati,Let's Get It Started (Agile),2,2,0,0.00000000000000000000
+Asdfg,Start Me Up (Change),1,4,0,0.00000000000000000000
+Asdfg,Let's Get It Started (Agile),2,6,0,0.00000000000000000000
+Asd,Start Me Up (Change),1,4,0,0.00000000000000000000
+Asd,Let's Get It Started (Agile),2,6,0,0.00000000000000000000
+Argonauts,PreSprinting,0,2,0,0.00000000000000000000
+Argonauts,Start Me Up (Change),1,2,0,0.00000000000000000000
+ArcelorMittal SAP,PreSprinting,0,6,2,33.3333333333333333
+ArcelorMittal SAP,Sprint #1,1,12,8,66.6666666666666667
+ArcelorMittal SAP,Start Me Up (Change),1,4,2,50.0000000000000000
+ArcelorMittal SAP,Let's Get It Started (Agile),2,6,4,66.6666666666666667
+ArcelorMittal SAP,Sprint #2,2,18,14,77.7777777777777778
+ArcelorMittal SAP,I Wanna Rock (Scrum),3,6,4,66.6666666666666667
+ArcelorMittal SAP,Sprint #3,3,4,4,100.0000000000000000
+ArcelorMittal SAP,Don't Stop Believin' (Origins of Scrum),4,4,4,100.0000000000000000
+ArcelorMittal SAP,Keep On Running,5,4,2,50.0000000000000000
+ArcelorMittal SAP,I want to break free,6,4,2,50.0000000000000000
+ArcelorMittal SAP,Shine On You Crazy Diamond,8,4,4,100.0000000000000000
+Alpha - İpek,PreSprinting,0,6,2,33.3333333333333333
+Alpha - İpek,Start Me Up (Change),1,2,2,100.0000000000000000
+Alpha - İpek,Let's Get It Started (Agile),2,6,0,0.00000000000000000000
+Alpha - İpek,Sprint #2,2,2,0,0.00000000000000000000
+Alpha - İpek,Sprint #4,4,8,0,0.00000000000000000000
+Alpha - İpek,I want to break free,6,2,0,0.00000000000000000000
+Alpha - İpek,Smooth,7,2,0,0.00000000000000000000
+Alpha - İpek,Shine On You Crazy Diamond,8,4,2,50.0000000000000000
+Alpha - İpek,Gonna Fly Now,9,4,0,0.00000000000000000000
+Alpha - İpek,The Final Countdown,10,4,0,0.00000000000000000000
+Alpha - İpek,Bohemian Rhapsody,11,4,2,50.0000000000000000
+Alpha - İpek,Pinball Wizard,12,2,0,0.00000000000000000000
+Alpha - İpek,It's the End of the World As We Know It (And I Feel Fine),20,2,0,0.00000000000000000000
+Agile Studio,PreSprinting,0,6,2,33.3333333333333333
+Agile Studio,Start Me Up (Change),1,4,2,50.0000000000000000
+Agile Studio,Let's Get It Started (Agile),2,6,2,33.3333333333333333
+Agile Studio,I Wanna Rock (Scrum),3,2,0,0.00000000000000000000
+Agile Studio,Don't Stop Believin' (Origins of Scrum),4,2,0,0.00000000000000000000
+Agile Studio,Keep On Running,5,2,2,100.0000000000000000
+Agile Studio,I want to break free,6,4,2,50.0000000000000000
+agile,PreSprinting,0,6,0,0.00000000000000000000
+agile,Start Me Up (Change),1,4,4,100.0000000000000000
+agile,Sprint #1,1,4,2,50.0000000000000000
+agile,Let's Get It Started (Agile),2,6,6,100.0000000000000000
+agile,I Wanna Rock (Scrum),3,6,2,33.3333333333333333
+agile,Don't Stop Believin' (Origins of Scrum),4,4,2,50.0000000000000000
+agile,Sprint #4,4,2,0,0.00000000000000000000
+agile,Keep On Running,5,4,4,100.0000000000000000
+agile,I want to break free,6,2,0,0.00000000000000000000
+agile,Keep Pushin',13,2,0,0.00000000000000000000
+"1st Team",PreSprinting,0,2,0,0.00000000000000000000
+"1",Pre Sprinting,0,6,4,66.6666666666666667
+"1",Start Me Up,1,4,0,0.00000000000000000000
